@@ -1,0 +1,80 @@
+.Container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 56px;
+  background: #f2f2f2;
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+}
+
+.content {
+  width: 50%;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerText {
+  width: 100%;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.inputText {
+  width: 100px;
+  font-weight: 300;
+  color: #524f4f;
+  margin-right: 24px;
+  text-transform: capitalize;
+}
+
+.fieldHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+input {
+  width: 250px;
+  height: 42px;
+}
+
+.dropDown {
+  width: 250px;
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorMessage {
+  width: 50%;
+  color: #ee5757;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+.button {
+  height: 42px;
+  width: 150px;
+  margin-top: 32px;
+  background-color: #30CFD0;
+  color: #fff;
+  border:none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
